@@ -48,9 +48,8 @@ async def start(client, message):
             InlineKeyboardButton('⭕️ Help', callback_data='help'),
             InlineKeyboardButton('About ⭕️', callback_data='about')
             ],[
-            InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Channel', url=f'https://t.me/alexamovies_in')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/josprojects'),
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -95,9 +94,8 @@ async def start(client, message):
             InlineKeyboardButton('⭕️ Help', callback_data='help'),
             InlineKeyboardButton('About ⭕️', callback_data='about')
             ],[
-            InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Channel', url=f'https://t.me/alexamovies_in')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/josprojects'),
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
