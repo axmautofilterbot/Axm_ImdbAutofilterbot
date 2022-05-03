@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⭕ Status', url='https://t.me/josprojects/221'),
             InlineKeyboardButton('Source 🪤', callback_data='source')
             ],[
-            InlineKeyboardButton('❓ How to Use ❓', callback_data='help')
+            InlineKeyboardButton('❓ How to Us', callback_data='help')
             ],[
             InlineKeyboardButton('« Back', callback_data='start'),
             InlineKeyboardButton('Close ✗', callback_data='close_data')
