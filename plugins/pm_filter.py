@@ -115,7 +115,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT  ➡️", callback_data=f"next_{req}_{key}_{n_offset}")]
             )
     btn.insert(0,
-            [            [
+            [
                 InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
                 InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
             ],
