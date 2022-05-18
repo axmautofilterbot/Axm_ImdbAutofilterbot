@@ -386,7 +386,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'buttonalert:Hey this is Ts_Bots)')
             ]
             ]
 
