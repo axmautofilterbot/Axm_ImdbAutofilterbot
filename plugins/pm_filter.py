@@ -121,7 +121,7 @@ async def next_page(bot, query):
             ])
 
     btn.insert(0, [
-        InlineKeyboardButton("🤖 Check Bot PM First 🤖", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("🍿Movie Channel", url=f"https://t.me/+fRAfUjI02PE5Zjc1")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -386,8 +386,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
-            ]
             ]
 
         try:
